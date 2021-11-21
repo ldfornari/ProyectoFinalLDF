@@ -1,0 +1,49 @@
+header{
+    & nav img{
+    border-radius: 50%;
+    }
+    & .alinNav{
+        position: absolute;
+        right: 3%;
+    }
+    & .navegador{
+        background-color: $black !important;
+    }
+    & .alinLogo{
+        width: 90%;
+    }
+    & .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+    & .logo{
+        text-align: center;
+    }
+        & li{
+        .active{
+            color: $silver !important;
+        }
+        & a{ 
+            color:$orange !important;
+            font-weight: bold;
+            &:hover{
+                color: $white !important;
+            }
+        }
+    }
+}
+.titleH1{
+    display: block;
+    color: $orange;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px $black;
+    text-align: center;
+}
+.bgH1{
+    @extend .titleH1;   
+    margin: 8rem 0 1rem;
+    font-weight: bold;
+}
